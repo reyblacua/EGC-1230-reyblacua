@@ -4,8 +4,10 @@ from rest_framework.test import APITestCase
 
 from django.contrib.auth.models import User
 from rest_framework.authtoken.models import Token
+from base.tests import BaseTestCase
 
 from base import mods
+from base.mods import register_status
 
 class AuthTestExecuted(BaseTestCase):
     def setUp(self):
